@@ -1,0 +1,19 @@
+/*--reset.css--*/
+*{margin:0;padding: 0;box-sizing: border-box;}
+.clear{clear: both;font-size: 1px;line-height: 1x;display: block;height: 0;}
+
+
+/*--- body cnt start here--*/
+body{background-color: #fff;}
+.wrapper{width: 18%;margin: 0 auto;text-align: center;}
+#cngbg{
+    margin: 40px 0 0 0;
+    padding: 16px 0px;
+    font-family: arial;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #636eeb;
+    border-radius: 5px;
+}
+#backgroundcolor{}

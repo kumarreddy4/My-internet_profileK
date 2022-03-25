@@ -1,0 +1,12 @@
+/*--reset.css--*/
+*{margin:0;padding: 0;box-sizing: border-box;}
+.clear{clear: both;font-size: 1px;line-height: 1x;display: block;height: 0;}
+
+
+/*--- body cnt start here--*/
+body{background: #000;}
+.container{margin: 0px auto;width: 460px;text-align: center;font-family: Arial;border: 2px solid black;padding: 40px;border-radius: 44px;}
+.container h1{color: #fff;}
+#value{font-size: 100px;line-height: 130px;color: #fff;}
+button{padding: 10px 16px;font-size: 15px;}
+.btn{background: #efefef;color: #000000;border: 1px solid #000;border-radius: 5px;}

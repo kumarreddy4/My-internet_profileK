@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<title>
+			Background Color Change
+		</title>
+        
+        <link rel="stylesheet" href="css/style3.css">
+	</head>
+	
+	<body>
+		
+        <div class="wrapper">
+		<div id="cngbg">
+        <label for="backgroundcolor">Select Background Color:</label>
+        <input class="change-cursor" type="color" id="backgroundcolor" name="backgroundcolor"
+            onchange="changeBackgroundColor(event)">
+    </div>
+		</div>
+		<script>
+			
+const bodyEl = document.getElementsByTagName('body');
+
+            
+function changeBackgroundColor(event) {
+    const backgroundColor = event?.target?.value;
+    bodyEl[0].style.backgroundColor = backgroundColor;
+}
+		</script>
+	</body>
+</html>					

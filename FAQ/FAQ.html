@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+   <title>FAQ</title>
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ </head>
+
+ <body>
+    <div class="wrapper">
+     
+     <div class="Slide">
+       <div class="slide1">             
+         <h2>FAQs</h2>
+            <div class="faq">              
+              <h2>Who is the captain of RCB in IPL 2022?</h2>  
+            <div class="faq_cnt">            
+              <p>Faf du Plessis has been named captain of the Royal Challengers Bangalore for IPL 2022 starting March 26, the franchise revealed on Saturday during the RCB Unbox event in Bengaluru. Du Plessis, who until last year represented Chennai Super Kings, was picked up by RCB for ₹7 crore at the IPL mega auction last month.</p>
+             </div>                    
+            </div>              
+                       
+           
+             <div class="faq">              
+              <h2>What is Roman Reigns income?</h2>
+            <div class="faq_cnt">            
+              <p>Roman Reign is one of the most demanding and famous stars in the WWE Industry. His total net worth is around $ 15 million, while his salary from WWE is $1.2 million annually.</p>
+             </div>                    
+            </div>     
+            
+           
+           <div class="faq">              
+              <h2>What is NTR next movie after RRR?</h2>
+            <div class="faq_cnt">            
+              <p>After RRR with S.S Rajamouli, Jr NTR will team up with Trivikram Srinivas for his next, tentatively titled NTR30. Although the film is yet to be announced, it is carrying a big buzz. Now, the confirmed that the movie is on and has also revealed that it will be made on grand scale.</p>
+             </div>                    
+            </div>      
+           
+           
+           
+           <div class="faq">              
+              <h2>What are the responsibilities of a web designer?
+</h2>  
+            <div class="faq_cnt">            
+              <p>Testing and improving the design of the website. Establishing design guidelines, standards, and best practices. Maintaining the appearance of websites by enforcing content standards. Designing visual imagery for websites and ensuring that they are in line with branding for clients.</p>
+             </div>                    
+            </div>             
+        </div>               
+     </div>
+    </div>
+        
+        
+        
+        <script>
+	$(document).ready(function(e) {
+	
+            $('.faq h2').click(function(e){
+                $(this).parent().find('.faq_cnt').slideToggle();
+                $(this).parent().siblings().find('.faq_cnt').slideUp();
+                $(this).parent().toggleClass('active');
+                $(this).parent().siblings().removeClass('active');
+            })
+	
+            });
+        
+</script>
+ </body>
+</html>

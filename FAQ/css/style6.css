@@ -1,0 +1,75 @@
+/*--reset.css--*/
+*{margin: 0;padding: 0;box-sizing: border-box;}
+.clear{clear: both;font-size: 1px;line-height: 1px;display: block;height: 0;}
+.clear{clear:both; font-size:1px;line-height:1px; display:block; height:0;}
+
+/*--- body cnt start here--*/
+body{}
+.wrapper{width: 100%;margin: 0 auto;background: #000;}
+
+.bg{width: 100%; margin: 0 auto; position: relative;}
+.bg{background: url(../images/bg.jpg) no-repeat;background-size: cover;width: 100%;margin: 0 auto;background-attachment: fixed;background-position: top center;}
+
+.Main_cnt{width: 60%;margin: 0 auto;/* background: #fff; */padding: 70px 0;position: relative;}
+
+.hdr1{
+    padding: 30px 10px;
+    background: #213858;
+}
+.hdr1 h2{
+    font-size: 40px;
+    line-height: 60px;
+    font-family: cursive;
+    color: #fff;
+}
+
+.Bdycnt{background: #fff;padding: 0 20px;}
+.cnt1{
+    padding: 10px 0 50px 0;
+}
+.cnt1 h2{
+    font-size: 20px;
+    line-height: 30px;
+    font-family: monospace;
+}
+
+
+.btnn{
+    padding: 0 0 50px 0;
+}
+
+.btnn ul{}
+
+.btnn ul li{
+    margin: 10px 0;
+    list-style: none;
+}
+
+.btnn ul li a{
+    color: #fff;
+    /* background: #37c10e; */
+    background: #000000;
+    line-height: 50px;
+    height: 50px;
+    width: 200px;
+    display: block;
+    padding: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: arial;
+}
+
+
+.footer{
+    background: #213858;
+    padding: 15px 20px;
+}
+
+.ftcnt{}
+
+.ftcnt p{
+    color: #fff;
+    font-family: cursive;
+    text-align: right;
+}
